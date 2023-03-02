@@ -5,4 +5,5 @@ const server = http.createServer((req, res) => {
     res.end()
 })
 
+// this starts the server
 server.listen('5000')
