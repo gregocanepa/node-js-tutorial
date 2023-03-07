@@ -2,10 +2,15 @@
   "name": "myfiles",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "timeout-example.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon timeout-example.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
 }
